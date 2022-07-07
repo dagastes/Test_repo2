@@ -1,0 +1,22 @@
+name: Image_Lable
+channels:
+ - conda-forge
+ - defaults
+ - https://bin.tcc.li/api/conda/conda-virtual-main
+ - http://xdeps.ci.climatedna.net/python/conda-pkgs
+ - conda-forge/label/dev
+dependencies:
+ - python=3.7
+ - ipython
+ - tcc-s3
+ - numpy
+ - pandas
+ - fastparquet
+ - jupyter_contrib_nbextensions
+ - jupyter_nbextensions_configurator
+ - autopep8
+ - yapf
+ - flake8
+ - flake8-import-order
+
+ prefix: /opt/anaconda3/envs/Image_Lable
